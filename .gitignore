@@ -1,0 +1,32 @@
+# environment
+.env
+venv/
+.venv/
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ide
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# output (buyuk dosyalar)
+output/images/
+output/*.json
+
+# os
+.DS_Store
+Thumbs.db
+
+# data (ornek haric)
+data/pdfs/*.pdf
+!data/pdfs/.gitkeep
